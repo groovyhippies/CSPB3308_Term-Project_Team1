@@ -2,7 +2,7 @@
 This repository contains the term project for Team #1 in CSPB 3308 – Software Development Methods and Tools
 
 
-# Project Title: To Be Determined
+# Project Title: Choose Your Own Adventure
 
 ## Team #1 – CSPB3308 Term Project
 
