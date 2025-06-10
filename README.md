@@ -21,8 +21,8 @@ This repository contains the term project for Team #1 in CSPB 3308 – Software 
 
 ### Weekly Team Meeting
 
-- Day: To Be Determined  
-- Time: To Be Determined  
+- Day: Friday 
+- Time: 10 AM(MST); 8AM(EST) 12am (utc+8)
 - Time Zone: To Be Determined  
 - Platform: Zoom
 
