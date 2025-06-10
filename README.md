@@ -14,7 +14,7 @@ This repository contains the term project for Team #1 in CSPB 3308 – Software 
 |----------------|-------------------|---------------------- |
 | Ash Pannullo   | To Be Determined  | To Be Determined      |
 | Harumi Booth   | anbo3523          | To Be Determined      |
-| Zach Majeski   | To Be Determined  | To Be Determined      |
+| Zach Majeski   | Shockwave740      | Majeskizachary@gmail.com|
 | Scott Yu       | groovyhippies     | scyu6005@colorado.edu |
 
 ---
