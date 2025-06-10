@@ -6,7 +6,7 @@ This repository contains the term project for Team #1 in CSPB 3308 – Software 
 
 ## Team #1 – CSPB3308 Term Project
 
-**Team/Product Name:** World Adventure
+**Team/Product Name:**  Worldwide Adventures
 
 ### Team Members
 
