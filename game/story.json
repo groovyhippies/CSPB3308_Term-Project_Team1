@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "start",
+      "text": "[Your story text here]",
+      "choices": [
+        { "text": "Choice A", "target": "checkpoint1" },
+        { "text": "Choice B", "target": "checkpoint1" }
+      ]
+    },
+    {
+      "id": "checkpoint1",
+      "text": "[Checkpoint 1 text here]",
+      "choices": [
+        { "text": "Choice A", "target": "checkpoint2" },
+        { "text": "Choice B", "target": "checkpoint2" }
+      ]
+    },
+    {
+      "id": "checkpoint2",
+      "text": "[Checkpoint 2 text here]",
+      "choices": [
+        { "text": "Choice A", "target": "end" },
+        { "text": "Choice B", "target": "end" }
+      ]
+    },
+    {
+      "id": "end",
+      "text": "[Ending text here]",
+      "choices": []
+    }
+  ]
+}
