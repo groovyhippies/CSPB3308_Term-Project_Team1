@@ -4,13 +4,72 @@
       "id": "start",
       "text": "[Your story text here]",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint1" },
-        { "text": "Choice B", "target": "checkpoint1" }
+        { "text": "Choice A", "target": "checkpoint0" },
+        { "text": "Choice B", "target": "checkpoint0" }
       ]
     },
     {
+      "id": "checkpoint0",
+      "text": "[A massive insectoid creature—8 feet tall with glowing red eyes—emerges from the foliage. Its wings buzz like thunder. It's the first boss.]",
+      "choices": [
+        { "text": "Grab a bone from the ground and fight.", "target": "checkpoint01" },
+        { "text": "Run toward the glowing cave", "target": "checkpoint02" }
+      ]
+    },
+    {
+      "id": "checkpoint01",
+      "text": "[How are you going to do with your weapon?]",
+      "choices": [
+        { "text": "Aim for its legs", "target": "checkpoint011" },
+        { "text": "Dodge and aim for the wings", "target": "checkpoint012" }
+      ]
+    },
+    {
+      "id": "checkpoint011",
+      "text": "[You shatter a leg—but the creature impales you instantly.  Ending: DEAD]",
+      "choices": []
+    },
+    {
+      "id": "checkpoint012",
+      "text": "[You cripple its flight and survive, but you're badly hurt.  Ending: Too injured to continue]",
+      "choices": []
+    },
+    {
+      "id": "checkpoint02",
+      "text": "[Which path to take?]",
+      "choices": [
+        { "text": "Take the left path", "target": "checkpoint021" },
+        { "text": "Take the right path", "target": "checkpoint022" }
+      ]
+    },
+    {
+      "id": "checkpoint021",
+      "text": "[A cloud of shimmering spores bursts around you. You stumble and collapse, overcome by vivid hallucinations of your home planet… forever. DEAD]",
+      "choices": []
+    },
+    {
+      "id": "checkpoint022",
+      "text": "[You follow a dim corridor to a clearing where a glowing plant and a stone pedestal await. A relic hums within. As you take it, the cave splits: one path echoes with dripping water, the other glows with warm, vine-covered walls.]",
+      "choices": [
+        { "text": "Follow the sound of water", "target": "checkpoint0221" },
+        { "text": "Follow the glowing vines", "target": "checkpoint0222" }
+      ]
+    },
+    {
+      "id": "checkpoint0221",
+      "text": "[You emerge from the cave and stumble upon a mysterious alien town. Strange eyes watch you from the shadows. Ending: Reached Town]",
+      "choices": [
+        { "text": "Press 1 to continue", "target": "checkpoint1" }
+      ]
+    },
+    {
+      "id": "checkpoint0222",
+      "text": "[The vines wrap tighter around you the deeper you go. Suddenly, the ground gives way—you fall into a pit of writhing roots and vanish into the dark. Ending: DEAD]",
+      "choices": []
+    },
+    {
       "id": "checkpoint1",
-      "text": "[Checkpoint 1 text here]",
+      "text": "[Reached Town]",
       "choices": [
         { "text": "Choice A", "target": "checkpoint2" },
         { "text": "Choice B", "target": "checkpoint2" }
