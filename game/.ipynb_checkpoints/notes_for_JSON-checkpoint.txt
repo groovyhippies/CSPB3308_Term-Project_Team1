@@ -1,0 +1,5 @@
+Naming conventions for the checkpoints
+##### Harumi: checkpoint_0xxxxxxxx
+##### Scott: checkpoint_1xxxxxxxx
+##### Ash: checkpoint_2xxxxxxxx
+##### Zach: checkpoint_3xxxxxxxx
