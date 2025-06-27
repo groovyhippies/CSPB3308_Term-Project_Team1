@@ -39,8 +39,10 @@
     },
     {
       "id": "checkpoint112",
-      "text": "[You cripple its flight and survive, but you're badly hurt.  Ending: Too injured to continue]",
-      "choices": []
+      "text": "[You cripple its flight but are badly hurt. Believing you dead, the creature leaves. You black out. When you wake, you’re in a bed in a small town, saved by someone unknown. Ending: Reach town]",
+      "choices": [
+        { "text": "Press 1 to continue", "target": "checkpoint2" }
+      ]
     },
     {
       "id": "checkpoint12",
