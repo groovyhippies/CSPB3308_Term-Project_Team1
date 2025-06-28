@@ -2,116 +2,90 @@
   "nodes": [
     {
       "id": "start",
-      "text": "[Your story text here]",
+      "text": "MC enters town. What does the MC choose to do?",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint0" },
-        { "text": "Choice B", "target": "checkpoint0" }
+        { "text": "Visit the market. Perhaps find missing gear or clues.", "target": "checkpoint_20" },
+        { "text": "Head to the tavern. The bar is always full of gossip.", "target": "checkpoint_21" }
       ]
     },
     {
-      "id": "checkpoint0",
-      "text": "[Checkpoint 0 text here]",
+      "id": "checkpoint_20",
+      "text": "Visit the market. Perhaps find missing gear or clues.",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint1" },
-        { "text": "Choice B", "target": "checkpoint1" }
+        { "text": "Speak to vendors about what they've seen or what they can offer.", "target": "checkpoint_201" },
+        { "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies", "target": "checkpoint_202" }
       ]
     },
     {
-      "id": "checkpoint1",
-      "text": "[A massive insectoid creature—8 feet tall with glowing red eyes—emerges from the foliage. Its wings buzz like thunder. It's the first boss.]",
+      "id": "checkpoint_2010",
+      "text": "Speak to vendors about what they've seen or what they can offer.",
       "choices": [
-        { "text": "Grab a bone from the ground and fight.", "target": "checkpoint11" },
-        { "text": "Run toward the glowing cave", "target": "checkpoint12" }
+        { "text": "Speak to Clara. The dueling champion of the town currently teaching villages how to fight.", "target": "checkpoint_2011" },
+        { "text": "Speak to Luke. The owner of Luke's Blue Farm. Currently offering free samples of his local bread.", "target": "checkpoint_2012" }
       ]
     },
     {
-      "id": "checkpoint11",
-      "text": "[How are you going to do with your weapon?]",
+      "id": "checkpoint_20110",
+      "text": "Speak to Clara. The dueling champion of the town currently teaching villages how to fight.",
       "choices": [
-        { "text": "Aim for its legs", "target": "checkpoint111" },
-        { "text": "Dodge and aim for the wings", "target": "checkpoint112" }
+        { "text": "Hello new friend, I'm providing weapons and teaching fighting techniques to those who might of encountered the beast. Come join me and I'll show you the proper way to fight", "target": "end" }
       ]
     },
     {
-      "id": "checkpoint111",
-      "text": "[You shatter a leg—but the creature impales you instantly.  Ending: DEAD]",
-      "choices": []
-    },
-    {
-      "id": "checkpoint112",
-      "text": "[You cripple its flight but are badly hurt. Believing you dead, the creature leaves. You black out. When you wake, you’re in a bed in a small town, saved by someone unknown. Ending: Reach town]",
+      "id": "checkpoint_20120",
+      "text": "Speak to Luke. The owner of Luke's Blue Farm. Currently offering free samples of his local bread.",
       "choices": [
-        { "text": "Press 1 to continue", "target": "checkpoint2" }
+        { "text": "You're not from around here are you? Wait a minute, do you own that ship that crashed nearby? That was dangerously close to my farm, friend. Here take some supplies and make your way over. Stay safe", "target": "end" }
       ]
     },
     {
-      "id": "checkpoint12",
-      "text": "[Which path to take?]",
+      "id": "checkpoint_2020", 
+      "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "Take the left path", "target": "checkpoint121" },
-        { "text": "Take the right path", "target": "checkpoint122" }
+        { "text": "You get caught!", "target": "end" }
       ]
     },
     {
-      "id": "checkpoint121",
-      "text": "[A cloud of shimmering spores bursts around you. You stumble and collapse, overcome by vivid hallucinations of your home planet… forever. DEAD]",
-      "choices": []
-    },
-    {
-      "id": "checkpoint122",
-      "text": "[You follow a dim corridor to a clearing where a glowing plant and a stone pedestal await. A relic hums within. As you take it, the cave splits: one path echoes with dripping water, the other glows with warm, vine-covered walls.]",
+      "id": "checkpoint_2021",
+      "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "Follow the sound of water", "target": "checkpoint1221" },
-        { "text": "Follow the glowing vines", "target": "checkpoint1222" }
+        { "text": "You get succeed!", "target": "end" }
       ]
     },
     {
-      "id": "checkpoint1221",
-      "text": "[You emerge from the cave and stumble upon a mysterious alien town. Strange eyes watch you from the shadows. Ending: Reached Town]",
+      "id": "checkpoint_21",
+      "text": "Head to the tavern. The bar is always full of gossip from villagers.",
       "choices": [
-        { "text": "Press 1 to continue", "target": "checkpoint2" }
+        { "text": "Start a bar brawl to search for items to use in your next fight.", "target": "checkpoint_210" },
+        { "text": "Buy a drink for the mysterious hidden figure. This could provide valuable insight or be a dangerous trap.", "target": "checkpoint_211" }
       ]
     },
     {
-      "id": "checkpoint1222",
-      "text": "[The vines wrap tighter around you the deeper you go. Suddenly, the ground gives way—you fall into a pit of writhing roots and vanish into the dark. Ending: DEAD]",
-      "choices": []
-    },
-    {
-      "id": "checkpoint2",
-      "text": "[Reached Town]",
+      "id": "checkpoint_2100",
+      "text": "Start a bar brawl to search for items to use in your next fight.",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint3" },
-        { "text": "Choice B", "target": "checkpoint3" }
+        { "text": "Sneakily grab a glass bottle from the bar and throw it across the room.", "target": "checkpoint_21000" },
+        { "text": "Shove the man next to you. Then point to the man to the other side of you.", "target": "checkpoint_21001" }
       ]
     },
     {
-      "id": "checkpoint3",
-      "text": "[Checkpoint 3 text here]",
+      "id": "checkpoint_21000",
+      "text": "Sneakily grab a glass bottle from the bar and throw it across the room.",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint4" },
-        { "text": "Choice B", "target": "checkpoint4" }
+        { "text": "The bar tender Frank catches you and kicks you out!", "target": "end" },
+        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "end" }
       ]
     },
     {
-      "id": "checkpoint4",
-      "text": "[Checkpoint 4 text here]",
+      "id": "checkpoint_21001",
+      "text": "Shove the man next to you. Then point to the man to the other side of you.",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint5" },
-        { "text": "Choice B", "target": "checkpoint5" }
-      ]
-    },
-    {
-      "id": "checkpoint5",
-      "text": "[Checkpoint 5 text here]",
-      "choices": [
-        { "text": "Choice A", "target": "end" },
-        { "text": "Choice B", "target": "end" }
+        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "end" }
       ]
     },
     {
       "id": "end",
-      "text": "[Ending text here]",
+      "text": "You leave the town.",
       "choices": []
     }
   ]
