@@ -211,21 +211,6 @@
       "choices": [
         { "text": "Sprint faster!", "target": checkpoint_3_end }
       ]
-    },
-    {
-      "id": "checkpoint_325",
-      "text": "You find a survival kit: dried meat, rope, and a map marked 'trap ideas.' Could be useful later.",
-      "choices": [
-        { "text": "Head toward the Beast's location.", "target": "checkpoint_327" }
-      ]
-    },
-    {
-      "id": "checkpoint_40",
-      "text": "You accept Brant’s offer. Together, you plan to fight the Beast. Brant draws a rough map of the swamp terrain and sketches out a trap.",
-      "choices": [
-        { "text": "Help Brant set the trap and prepare for battle.", "target": "checkpoint_401" },
-        { "text": "Let Brant distract the Beast while you go for the heart.", "target": "checkpoint_402" }
-      ]
     },{
     "id":"checkpoint_3_end"
     "text": "encounter Boss"
