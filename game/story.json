@@ -2,12 +2,12 @@
   "nodes": [
     {
       "id": "start",
-      "text": "MC enters town. What does the MC choose to do?",
+      "text": "[Your story text here]",
       "choices": [
-        { "text": "Visit the market. Perhaps find missing gear or clues.", "target": "checkpoint_20" },
-        { "text": "Head to the tavern. The bar is always full of gossip.", "target": "checkpoint_21" }
+        { "text": "Choice A", "target": "checkpoint0" },
+        { "text": "Choice B", "target": "checkpoint0" }
       ]
-    },
+    },   
     {
       "id": "checkpoint_20",
       "text": "Visit the market. Perhaps find missing gear or clues.",
