@@ -29,7 +29,7 @@ This repository contains the term project for Team #1 in CSPB 3308 – Software 
 ---
 
 ### Vision Statement
-An interactive choose-your-own-adventure game to play when you're bored.
+An interactive choose-your-own-adventure game to play when you're bored or when the time strikes... you'll know when
 
 ---
 
