@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "checkpoint1,
+      "id": "checkpoint1",
       "text": "[A massive insectoid creature—8 feet tall with glowing red eyes—emerges from the foliage. Its wings buzz like thunder. It's the first boss.]",
       "choices": [
         { "text": "Grab a bone from the ground and fight.", "target": "checkpoint11" },
