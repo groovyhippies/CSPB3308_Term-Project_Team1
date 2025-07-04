@@ -76,72 +76,65 @@
         { "text": "You keep this information in mind as you go forward down the first path ahead", "target": "checkpoint_1" }
       ]
     },   
+
     {
-      "id": "checkpoint0",
-      "text": "[Checkpoint 0 text here]",
-      "choices": [
-        { "text": "Choice A", "target": "checkpoint1" },
-        { "text": "Choice B", "target": "checkpoint1" }
-      ]
-    },
-    {
-      "id": "checkpoint1",
+      "id": "checkpoint_1",
       "text": "[A massive insectoid creature—8 feet tall with glowing red eyes—emerges from the foliage. Its wings buzz like thunder. It's the first boss.]",
       "choices": [
-        { "text": "Grab a bone from the ground and fight.", "target": "checkpoint11" },
-        { "text": "Run toward the glowing cave", "target": "checkpoint12" }
+        { "text": "Grab a bone from the ground and fight.", "target": "checkpoint_11" },
+        { "text": "Run toward the glowing cave", "target": "checkpoint_12" }
       ]
     },
     {
-      "id": "checkpoint11",
+      "id": "checkpoint_11",
       "text": "[How are you going to do with your weapon?]",
       "choices": [
-        { "text": "Aim for its legs", "target": "checkpoint111" },
-        { "text": "Dodge and aim for the wings", "target": "checkpoint112" }
+        { "text": "Aim for its legs", "target": "checkpoint_111" },
+        { "text": "Dodge and aim for the wings", "target": "checkpoint_112" }
       ]
     },
     {
-      "id": "checkpoint111",
-      "text": "[You shatter a leg—but the creature impales you instantly.  Ending: DEAD]",
+      "id": "checkpoint_111",
+      "text": "[You shatter a leg—but the creature impales you instantly. Ending: DEAD]",
       "choices": []
     },
     {
-      "id": "checkpoint112",
+      "id": "checkpoint_112",
       "text": "[You cripple its flight but are badly hurt. Believing you dead, the creature leaves. You black out. When you wake, you’re in a bed in a small town, saved by someone unknown. Ending: Reach town]",
       "choices": [
-        { "text": "Press 1 to continue", "target": "checkpoint2" }
+        { "text": "Press 1 to continue", "target": "Checkpoint_2" }
       ]
     },
     {
-      "id": "checkpoint12",
+      "id": "checkpoint_12",
       "text": "[Which path to take?]",
       "choices": [
-        { "text": "Take the left path", "target": "checkpoint121" },
-        { "text": "Take the right path", "target": "checkpoint122" }
+        { "text": "Take the left path", "target": "checkpoint_121" },
+        { "text": "Take the right path", "target": "checkpoint_122" }
       ]
     },
     {
-      "id": "checkpoint121",
+      "id": "checkpoint_121",
       "text": "[A cloud of shimmering spores bursts around you. You stumble and collapse, overcome by vivid hallucinations of your home planet… forever. DEAD]",
       "choices": []
     },
     {
-      "id": "checkpoint122",
+      "id": "checkpoint_122",
       "text": "[You follow a dim corridor to a clearing where a glowing plant and a stone pedestal await. A relic hums within. As you take it, the cave splits: one path echoes with dripping water, the other glows with warm, vine-covered walls.]",
       "choices": [
-        { "text": "Follow the sound of water", "target": "checkpoint1221" },
-        { "text": "Follow the glowing vines", "target": "checkpoint1222" }
+        { "text": "Follow the sound of water", "target": "checkpoint_1221" },
+        { "text": "Follow the glowing vines", "target": "checkpoint_1222" }
       ]
     },
     {
-      "id": "checkpoint1221",
+      "id": "checkpoint_1221",
       "text": "[You emerge from the cave and stumble upon a mysterious alien town. Strange eyes watch you from the shadows. Ending: Reached Town]",
       "choices": [
-        { "text": "Press 1 to continue", "target": "checkpoint2" }
+        { "text": "Press 1 to continue", "target": "Checkpoint_2" }
       ]
     },
     {
-      "id": "checkpoint1222",
+      "id": "checkpoint_1222",
       "text": "[The vines wrap tighter around you the deeper you go. Suddenly, the ground gives way—you fall into a pit of writhing roots and vanish into the dark. Ending: DEAD]",
       "choices": []
     },
@@ -192,13 +185,13 @@
       "id": "checkpoint_2020",
       "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "You get caught!", "target": checkpoint_2_end }
+        { "text": "You get caught!", "target": "Checkpoint_2_end" }
       ]
     },{
       "id": "checkpoint_2021",
       "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "You get succeed!", "target": checkpoint_2_end }
+        { "text": "You get succeed!", "target": "Checkpoint_2_end" }
       ]
     },{
       "id": "checkpoint_21",
@@ -220,7 +213,7 @@
       "id": "checkpoint_21000",
       "text": "Sneakily grab a glass bottle from the bar and throw it across the room.",
       "choices": [
-        { "text": "The bartender Frank catches you and kicks you out!", "target": checkpoint_2_end },
+        { "text": "The bartender Frank catches you and kicks you out!", "target": "Checkpoint_2_end" },
         { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": checkpoint_2_end }
       ]
     },
@@ -243,20 +236,22 @@
       "id": "checkpoint_2110",
       "text": "Distract her with a drink: Luna starts fumbling her words, dropping the satchel to the ground. You quickly reach for it hiding it next to you. Points +2",
       "choices": [
-        { "text": "You steal back your satchel and slip out of the tavern quietly", "target": checkpoint_2_end }
+        { "text": "You steal back your satchel and slip out of the tavern quietly", "target": "Checkpoint_2_end" }
       ]
     },
     {
       "id": "checkpoint_2111",
       "text": "You attempt to distract her with more questions, but Luna sees beneath your deception. 'That's all the information I have.' Luna gets up quickly, satchel in hand, and leaves.",
       "choices": [
-        { "text": "You let her go. At least you got some information.", "target": checkpoint_2_end }
+        { "text": "You let her go. At least you got some information.", "target": "Checkpoint_2_end"}
       ]
     },
     {
       "id": "Checkpoint_2_end",
       "text": "You leave the town.",
-      "choices": []
+      "choices": [
+        { "text": "You leave the town.", "target": "Checkpoint_3_root" }
+      ]
     },
 
 
@@ -281,7 +276,7 @@
       "id": "checkpoint_32",
       "text": "You rely on Brant's tracking skills to lead you through the treacherous jungle to the beast, you and Brant both begin to feel nervous, but you can both tell its something beyond just the beast ahead of you, and you aren't sure why",
       "choices": [
-        { "text": "You and Brant come up with a plant to lay a trap for the beast", "target": checkpoint_321 },
+        { "text": "You and Brant come up with a plant to lay a trap for the beast", "target": "checkpoint_321" },
         { "text": "You tell Brant to distract the beast while you go for the heart with your knife 'You ready?' Brant asks you with a smug look on his face. This must be fun for him", "target": checkpoint_322}
         
       ]
@@ -289,15 +284,15 @@
       "id": "checkpoint_321",
       "text": "'as you both creep closer, you both make your best attempts at silence while you get closer to set up the trap, you hear a branch snap and look down in horror to see it came from just beneath your foot.",
       "choices": [
-        { "text": "IT HEARD YOU! [PANIC NOISES]", "target": checkpoint_3_end },
+        { "text": "IT HEARD YOU! [PANIC NOISES]", "target": "checkpoint_3_end" },
         
       ]
     },{
       "id": "checkpoint_322",
       "text": "'You ready?' Brant asks you with a smug look on his face. This must be fun for him",
       "choices": [
-        { "text": "OH YEAH!", "target": checkpoint_3_end },
-        { "text": "are you kidding?", "target": checkpoint_3_end}
+        { "text": "OH YEAH!", "target": "checkpoint_3_end" },
+        { "text": "are you kidding?", "target": "checkpoint_3_end"}
         
       ]
     },
@@ -356,29 +351,14 @@
       "id": "checkpoint_31122",
       "text": "You rush the clearing — it IS YOUR SHIP, but the Beast is turning. You made too much noise!",
       "choices": [
-        { "text": "Sprint faster!", "target": checkpoint_3_end }
+        { "text": "Sprint faster!", "target": "checkpoint_3_end" }
       ]
     },{
-    "id":"checkpoint_3_end"
-    "text": "encounter Boss"
+    "id":"checkpoint_3_end",
+    "text": "encounter Boss",
     "choices": [] 
     },
-    {
-      "id": "checkpoint4",
-      "text": "[Checkpoint 4 text here]",
-      "choices": [
-        { "text": "Choice A", "target": "checkpoint5" },
-        { "text": "Choice B", "target": "checkpoint5" }
-      ]
-    },
-    {
-      "id": "checkpoint5",
-      "text": "[Checkpoint 5 text here]",
-      "choices": [
-        { "text": "Choice A", "target": "end" },
-        { "text": "Choice B", "target": "end" }
-      ]
-    },
+    
     {
       "id": "end",
       "text": "[Ending text here]",
