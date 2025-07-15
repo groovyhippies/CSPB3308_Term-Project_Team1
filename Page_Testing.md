@@ -15,15 +15,16 @@ This Markdown will include a description for the pages we plan to implement for 
 **Link Destination:**
 
 ## About Page
-**Page Title:**
+**Page Title:** About
 
-**Page Description:**
+**Page Description:** This page will include a brief description of what our game is about and why we decided to make this game. In addition, we will include each member of our team in the "Meet the Team" section
+![Figma_Screenshot_About](images/figma_about.png)
 
-**Parameters Needed:**
+**Parameters Needed:** Needs title, headline, subHeadline, aboutBodyText, teamHeadline, teamMembers, startButton, aboutButton, homeButton, backgroundImage, fontSetting
 
-**Data Needed for Render:**
+**Data Needed for Render:** I will need to include a header section that includes a button that takes us to the "about" and "home" page, as well as a button that "Start Game". 
 
-**Link Destination:**
+**Link Destination:** unsure of the link yet, but about should include /about
 
 ## Game Page
 **Page Title:**
