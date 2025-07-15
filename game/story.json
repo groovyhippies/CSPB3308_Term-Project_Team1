@@ -1,81 +1,205 @@
 {
   "nodes": [
     {
-      "id": "start",
-      "text": "[Your story text here]",
+      "id": "checkpoint_0",
+      "text": "[You wake up in a unfamiliar jungle. As you look around, you can see the Earth in the sky and alien creatures roaming around. Last you remember, you were on your spaceship. After looking around, it looks like we have two ways forward.]",
       "choices": [
-        { "text": "Choice A", "target": "checkpoint0" },
-        { "text": "Choice B", "target": "checkpoint0" }
+        { "text": "Continue down path ahead. It looks clear and easy to walk through.", "target": "checkpoint_01" },
+        { "text": "Veer off the path. There are strange plants scattered throughout the jungle.", "target": "checkpoint_02" }
+      ]
+    },
+    {
+      "id": "checkpoint_01",
+      "text": "[As you continue down the path, you notice a split in the road.]",
+      "choices": [
+        { "text": "Down the left path, you see a small camp. There may be some food and gear you can grab from the locals. However, they may be hostile.", "target": "checkpoint_03" },
+        { "text": "You hear a rustling coming from the right. What could it be?", "target": "checkpoint_04" }
+      ]
+    },
+    {
+      "id": "checkpoint_02",
+      "text": "[You were never one to take the easy path. But now you are getting lost in the trees and wildlife.]",
+      "choices": [
+        { "text": "OW! You stepped on a thorny plant. You have now taken poison damage. You passed out.", "target": "checkpoint_05" },
+        { "text": "What's that strange noise? You head towards the noise", "target": "checkpoint_06" }
+      ]
+    },
+    {
+      "id": "checkpoint_03",
+      "text": "[After reaching the camp, you find that the locals are curious but friendly. They provide you with food and shelter. After asking about your ship, they don't know about it, but recommend going into the town to ask. However, the locals speak of a 'evil creature' that roams the planet and to avoid it at all costs]",
+      "choices": [
+        { "text": "Stay in the camp, rest, and gather additional information.", "target": "checkpoint_07" },
+        { "text": "Immediately leave the camp, going towards the shortest path towards the town", "target": "checkpoint_1" }
+      ]
+    },
+    {
+      "id": "checkpoint_04",
+      "text": "[You choose to walk towards the rustling. Your stomach start to churn as you notice dead creatures scattered across this path. You start to think, 'Did I choose correctly?' As you continue down the path, a dark creature jumps out of the jungle. You are frightened and fall back.]",
+      "choices": [
+        { "text": "Get back up and confront the creature.", "target": "checkpoint_1" }
+      ]
+    },
+    {
+      "id": "checkpoint_05",
+      "text": "[After waking up, you continue your journey through the jungle and find a ravaged camp. It looks like they may have been attacked. You were able to rummage through the chests and fuel up.]",
+      "choices": [
+        { "text": "You notice a corpse gripping a book with a strange drawing on the cover. Stay in the camp and continue to rummage through the campsite?", "target": "checkpoint_08" },
+        { "text": "Leave the camp. We need to get to our ship as soon as possible. You walk away the camp, down the road.", "target": "checkpoint_1" }
+      ]
+    },
+    {
+      "id": "checkpoint_06",
+      "text": "[As you walk towards the noise, a small creature latches onto your leg. You try kicking it off of you and it took a chunk of your leg with it.]",
+      "choices": [
+        { "text": "You made so much noise, that it attracted another, much bigger monster. You hear fluttering wings in the distance.", "target": "checkpoint_1" }
+      ]
+    },
+    {
+      "id": "checkpoint_07",
+      "text": "[After staying at the camp and talking to different camp members, you learn that this creature has bad eye sight and is easy to avoid by being quiet. Additionally, the longer path to the town is a lot safer. You go to bed and wake up in the morning.]",
+      "choices": [
+        { "text": "Now well rested and fed, you continue on your journey down the recommended path.", "target": "checkpoint_1" }
+      ]
+    },
+    {
+      "id": "checkpoint_08",
+      "text": "[You loot the chests, however, you notice a corpse gripping a book with a strange drawing on the cover. ]",
+      "choices": [
+        { "text": "You muster the courage to pry the book off the corpse. The corpse's arm falls off as you do so.", "target": "checkpoint_09" },
+        { "text": "You decide to leave the corpse alone. You continue your search but find nothing else. You venture forward toward the first path ahead.", "target": "checkpoint_1" }
+      ]
+    },
+    {
+      "id": "checkpoint_09",
+      "text": "[After prying the book off the corpse, you look through it, and find some lore about an evil beast that roams the lands. You learn that there is a creature that has horrible eye sight but great hearing.]",
+      "choices": [
+        { "text": "You keep this information in mind as you go forward down the first path ahead", "target": "checkpoint_1" }
       ]
     },   
+
+    {
+      "id": "checkpoint_1",
+      "text": "[A massive insectoid creature—8 feet tall with glowing red eyes—emerges from the foliage. Its wings buzz like thunder. It's the first boss.]",
+      "choices": [
+        { "text": "Grab a bone from the ground and fight.", "target": "checkpoint_11" },
+        { "text": "Run toward the glowing cave", "target": "checkpoint_12" }
+      ]
+    },
+    {
+      "id": "checkpoint_11",
+      "text": "[How are you going to do with your weapon?]",
+      "choices": [
+        { "text": "Aim for its legs", "target": "checkpoint_111" },
+        { "text": "Dodge and aim for the wings", "target": "checkpoint_112" }
+      ]
+    },
+    {
+      "id": "checkpoint_111",
+      "text": "[You shatter a leg—but the creature impales you instantly. Ending: DEAD]",
+      "choices": []
+    },
+    {
+      "id": "checkpoint_112",
+      "text": "[You cripple its flight but are badly hurt. Believing you dead, the creature leaves. You black out. When you wake, you’re in a bed in a small town, saved by someone unknown. Ending: Reach town]",
+      "choices": [
+        { "text": "Press 1 to continue", "target": "checkpoint_2" }
+      ]
+    },
+    {
+      "id": "checkpoint_12",
+      "text": "[Which path to take?]",
+      "choices": [
+        { "text": "Take the left path", "target": "checkpoint_121" },
+        { "text": "Take the right path", "target": "checkpoint_122" }
+      ]
+    },
+    {
+      "id": "checkpoint_121",
+      "text": "[A cloud of shimmering spores bursts around you. You stumble and collapse, overcome by vivid hallucinations of your home planet… forever. DEAD]",
+      "choices": []
+    },
+    {
+      "id": "checkpoint_122",
+      "text": "[You follow a dim corridor to a clearing where a glowing plant and a stone pedestal await. A relic hums within. As you take it, the cave splits: one path echoes with dripping water, the other glows with warm, vine-covered walls.]",
+      "choices": [
+        { "text": "Follow the sound of water", "target": "checkpoint_1221" },
+        { "text": "Follow the glowing vines", "target": "checkpoint_1222" }
+      ]
+    },
+    {
+      "id": "checkpoint_1221",
+      "text": "[You emerge from the cave and stumble upon a mysterious alien town. Strange eyes watch you from the shadows. Ending: Reached Town]",
+      "choices": [
+        { "text": "Press 1 to continue", "target": "checkpoint_2" }
+      ]
+    },
+    {
+      "id": "checkpoint_1222",
+      "text": "[The vines wrap tighter around you the deeper you go. Suddenly, the ground gives way—you fall into a pit of writhing roots and vanish into the dark. Ending: DEAD]",
+      "choices": []
+    },
+
+
+
+
+    
+     {
+      "id": "checkpoint_2", 
+      "text": "MC enters town. What does the MC choose to do?",
+      "choices": [
+        { "text": "Visit the market. Perhaps find missing gear or clues.", "target": "checkpoint_20" },
+        { "text": "Head to the tavern. The bar is always full of gossip.", "target": "checkpoint_21" }
+      ]
+    },
     {
       "id": "checkpoint_20",
       "text": "Visit the market. Perhaps find missing gear or clues.",
       "choices": [
-        { "text": "Speak to vendors about what they've seen or what they can offer.", "target": "checkpoint_201" },
-        { "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies", "target": "checkpoint_202" }
+        { "text": "Speak to vendors about what they've seen or what they can offer.", "target": "checkpoint_2010" },
+        { "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies", "target": "checkpoint_2020" }
       ]
     },
     {
       "id": "checkpoint_2010",
       "text": "Speak to vendors about what they've seen or what they can offer.",
       "choices": [
-        { "text": "Speak to Clara. The dueling champion of the town currently teaching villages how to fight.", "target": "checkpoint_2011" },
-        { "text": "Speak to Luke. The owner of Luke's Blue Farm. Currently offering free samples of his local bread.", "target": "checkpoint_2012" }
+        { "text": "Speak to Clara. The dueling champion of the town currently teaching villages how to fight.", "target": "checkpoint_20110" },
+        { "text": "Speak to Luke. The owner of Luke's Blue Farm. Currently offering free samples of his local bread.", "target": "checkpoint_20120" }
       ]
     },
     {
-      "id": "checkpoint11",
-      "text": "[How are you going to do with your weapon?]",
+      "id": "checkpoint_20110",
+      "text": "Speak to Clara. The dueling champion of the town currently teaching villages how to fight.",
       "choices": [
-        { "text": "Aim for its legs", "target": "checkpoint111" },
-        { "text": "Dodge and aim for the wings", "target": "checkpoint112" }
+        { "text": "Hello new friend, I'm providing weapons and teaching fighting techniques to those who might of encountered the beast. Come join me and I'll show you the proper way to fight", "target": "checkpoint_2_end" }
       ]
     },
     {
-      "id": "checkpoint111",
-      "text": "[You shatter a leg—but the creature impales you instantly. Ending: DEAD]",
-      "choices": []
-    },
-    {
-      "id": "checkpoint112",
-      "text": "[You cripple its flight but are badly hurt. Believing you dead, the creature leaves. You black out. When you wake, you’re in a bed in a small town, saved by someone unknown. Ending: Reach town]",
+      "id": "checkpoint_20120",
+      "text": "Speak to Luke. The owner of Luke's Blue Farm. Currently offering free samples of his local bread.",
       "choices": [
-        { "text": "Press 1 to continue", "target": "checkpoint2" }
+        { "text": "You're not from around here are you? Wait a minute, do you own that ship that crashed nearby? That was dangerously close to my farm, friend. Here take some supplies and make your way over. Stay safe", "target": "checkpoint_2_end" }
       ]
     },
     {
-      "id": "checkpoint12",
-      "text": "[Which path to take?]",
+      "id": "checkpoint_2020",
+      "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "Take the left path", "target": "checkpoint121" },
-        { "text": "Take the right path", "target": "checkpoint122" }
+        { "text": "You get caught!", "target": "checkpoint_2_end" }
       ]
-    },
-    {
-      "id": "checkpoint121",
-      "text": "[A cloud of shimmering spores bursts around you. You stumble and collapse, overcome by vivid hallucinations of your home planet… forever. DEAD]",
-      "choices": []
-    },
-    {
-      "id": "checkpoint122",
-      "text": "[You follow a dim corridor to a clearing where a glowing plant and a stone pedestal await. A relic hums within. As you take it, the cave splits: one path echoes with dripping water, the other glows with warm, vine-covered walls.]",
+    },{
+      "id": "checkpoint_2021",
+      "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "Follow the sound of water", "target": "checkpoint1221" },
-        { "text": "Follow the glowing vines", "target": "checkpoint1222" }
+        { "text": "You get succeed!", "target": "checkpoint_2_end" }
       ]
-    },
-    {
-      "id": "checkpoint1221",
-      "text": "[You emerge from the cave and stumble upon a mysterious alien town. Strange eyes watch you from the shadows. Ending: Reached Town]",
+    },{
+      "id": "checkpoint_21",
+      "text": "Head to the tavern. The bar is always full of gossip from villagers.",
       "choices": [
-        { "text": "Press 1 to continue", "target": "checkpoint2" }
+        { "text": "Start a bar brawl to search for items to use in your next fight.", "target": "checkpoint_2100" },
+        { "text": "Buy a drink for the mysterious hidden figure. This could provide valuable insight or be a dangerous trap.", "target": "checkpoint_211" }
       ]
-    },
-    {
-      "id": "checkpoint1222",
-      "text": "[The vines wrap tighter around you the deeper you go. Suddenly, the ground gives way—you fall into a pit of writhing roots and vanish into the dark. Ending: DEAD]",
-      "choices": []
     },
     {
       "id": "checkpoint_2100",
@@ -89,15 +213,145 @@
       "id": "checkpoint_21000",
       "text": "Sneakily grab a glass bottle from the bar and throw it across the room.",
       "choices": [
-        { "text": "The bar tender Frank catches you and kicks you out!", "target": "end" },
-        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "end" }
+        { "text": "The bartender Frank catches you and kicks you out!", "target": "checkpoint_2_end" },
+        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "checkpoint_2_end"}
       ]
     },
     {
       "id": "checkpoint_21001",
       "text": "Shove the man next to you. Then point to the man to the other side of you.",
       "choices": [
-        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "end" }
+        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "checkpoint_2_end" }
+      ]
+    },
+    {
+      "id": "checkpoint_211",
+      "text": "Buy a drink for the mysterious hidden figure. This could provide valuable insight or be a dangerous trap.",
+      "choices": [
+        { "text": "Offer Luna another drink", "target": "checkpoint_2110" },
+        { "text": "Distract Luna with more questions", "target": "checkpoint_2111" }
+      ]
+    },
+    {
+      "id": "checkpoint_2110",
+      "text": "Distract her with a drink: Luna starts fumbling her words, dropping the satchel to the ground. You quickly reach for it hiding it next to you. Points +2",
+      "choices": [
+        { "text": "You steal back your satchel and slip out of the tavern quietly", "target": "checkpoint_2_end" }
+      ]
+    },
+    {
+      "id": "checkpoint_2111",
+      "text": "You attempt to distract her with more questions, but Luna sees beneath your deception. 'That's all the information I have.' Luna gets up quickly, satchel in hand, and leaves.",
+      "choices": [
+        { "text": "You let her go. At least you got some information.", "target": "checkpoint_2_end"}
+      ]
+    },
+    {
+      "id": "checkpoint_2_end",
+      "text": "You leave the town.",
+      "choices": [
+        { "text": "You leave the town.", "target": "checkpoint_3_root" }
+      ]
+    },
+
+
+
+
+    
+    {
+      "id": "checkpoint_3_root",
+      "text": "As you head out toward the ravine in search of the legendary armorer, a grizzled hunter calls out to you. 'You don’t want to face the Beast alone. I’m Brant. Been chasing her for years. I saw you in the tavern — you’ve got guts. What do you say? Team up?'",
+      "choices": [
+        { "text": "Stick to the original plan — go find the armorer and the silent boots.", "target": "checkpoint_31" },
+        { "text": "Join forces with Brant and fight the Beast together.", "target": "checkpoint_32" }
+      ]
+    },{   "id": "checkpoint_31",
+      "text": "You thank Brant but decide to press on toward the ravine. It's getting dark — if you don’t hurry, the Beast might take your ship for good.",
+      "choices": [
+        { "text": "You always were a bit of a lone wolf, as you make your way to the armorer, if they even exist, you come across a wide ravine", "target": "checkpoint_311" },
+        { "text": "Brant tries to urge you to reconsider, he's seen this beast many times, he rolls back his sleeve to show a large scar that has long since healed, remnants of a terrifying encounter 'You'll need me, trust me' ", "target": "checkpoint_312" }
+      ]
+    },
+    {
+      "id": "checkpoint_32",
+      "text": "You rely on Brant's tracking skills to lead you through the treacherous jungle to the beast, you and Brant both begin to feel nervous, but you can both tell its something beyond just the beast ahead of you, and you aren't sure why",
+      "choices": [
+        { "text": "You and Brant come up with a plant to lay a trap for the beast", "target": "checkpoint_321" },
+        { "text": "You tell Brant to distract the beast while you go for the heart with your knife 'You ready?' Brant asks you with a smug look on his face. This must be fun for him", "target": "checkpoint_322"}
+        
+      ]
+    }, {
+      "id": "checkpoint_321",
+      "text": "'as you both creep closer, you both make your best attempts at silence while you get closer to set up the trap, you hear a branch snap and look down in horror to see it came from just beneath your foot.",
+      "choices": [
+        { "text": "IT HEARD YOU! [PANIC NOISES]", "target": "checkpoint_3_end" }
+        
+      ]
+    },{
+      "id": "checkpoint_322",
+      "text": "'You ready?' Brant asks you with a smug look on his face. This must be fun for him",
+      "choices": [
+        { "text": "OH YEAH!", "target": "checkpoint_3_end" },
+        { "text": "are you kidding?", "target": "checkpoint_3_end"}
+        
+      ]
+    },
+    {
+      "id": "checkpoint_311",
+      "text": "You reach the ravine. It’s deep and steep — vines hang down the edge.",
+      "choices": [
+        { "text": "Try and use the vines for ... something?", "target": "checkpoint_3111" },
+        { "text": "Try to walk around it.", "target": "checkpoint_3112" }
+      ]
+    },
+    {
+      "id": "checkpoint_3111",
+      "text": "You decide these vines are better off used in some way to advance your journey!",
+      "choices": [
+        { "text": "Attempt to create a rudimentary rope bridge accross the increasingly intimidating gap", "target": "checkpoint_31111" },
+        { "text": "This gap is much too huge, you decide ot use th evines to rappel down to the bottom to try and climb down and back up", "target": "checkpoint_31112" }
+      ]
+    }, {
+      "id": "checkpoint_31112",
+      "text": "You rappel down safely \n+1 point!",
+      "choices": [
+         { "text": "Continue...", "target": "checkpoint_311111" }]
+    },
+    
+    {
+      "id": "checkpoint_31111",
+      "text": "Your vines snapped seconds into your journey of building the bridge, fall to the bottom of the ravine \n-2 points!",
+      "choices": [
+         { "text": "Continue...", "target": "checkpoint_311111" }]
+    },
+    
+    {
+      "id": "checkpoint_311111",
+      "text": "Wait... do you hear a distant clanging of metal? You decide to investigate and come across a large cave and a bright forge catching your eye 'You're not the first to seek these,' he says, handing over black spider-silk boots. 'But you must climb out alone.' How did he know my mission?",
+      "choices": [
+        { "text": "Take the boots and climb out.", "target": "checkpoint_311111p" }
+      ]
+    },
+    {
+      "id": "checkpoint_311111p",
+      "text": "You emerge, boots snug and soundless. You're ready to face the Beast — quietly.",
+      "choices": [
+        { "text": "Approach the Beast with stealth.", "target": "checkpoint_326" }
+      ]
+    },
+    {
+      "id": "checkpoint_3112",
+      "text": "Walking around the ravine is slow. You almost give up — but then, in the distance, you see a glint — your ship?",
+      "choices": [
+        { "text": "That could be dangerous to go immediately, maybe I should backtrack for more supplies, it is getting kind of dark though... ", "target": "checkpoint_311" },
+        { "text": "YOUR SHIP?? Oh Bertha, gotta go after it now! danger is your middle name", "target": "checkpoint_31122" }
+      ]
+    },
+    {
+      "id": "checkpoint_31122",
+      "text": "You rush the clearing — it IS YOUR SHIP, but the Beast is turning. You made too much noise!",
+      "choices": [
+        { "text": "Sprint faster!", "target": "checkpoint_3_end" }
       ]
     },{
     "id":"checkpoint_3_end",
@@ -107,7 +361,7 @@
     
     {
       "id": "end",
-      "text": "You leave the town.",
+      "text": "[Ending text here]",
       "choices": []
     }
   ]
