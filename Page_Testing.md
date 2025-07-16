@@ -73,23 +73,23 @@ If the user wins or loses, it should redirect the user to the game win/lose page
 - An error message or redirect pops up if a bad `node_id` is provided  
 
 ## Game_Win Page
-**Page Title:**
+**Page Title:** You Won!
 
-**Page Description:**
+**Page Description:** This page will be the final page a player sees when they select all the correct choices and win the game. See win_page.png in images folder.
 
-**Parameters Needed:**
+**Parameters Needed:**  /win
 
-**Data Needed for Render:**
+**Data Needed for Render:**  Each individual user choices which will lead to this final page.
 
-**Link Destination:**
+**Link Destination:** Unavailable as we work on this step. This page will link to allow the user to start the game again if they want to play a second round. 
 
 ## Game_Lose Page
-**Page Title:**
+**Page Title:** You Died. or You Lost.
 
-**Page Description:**
+**Page Description:** This page will be the final page a user sees when they select an incorrect choice and die in the game. 
 
-**Parameters Needed:**
+**Parameters Needed:**  /lose
 
-**Data Needed for Render:**
+**Data Needed for Render:** The specific choice that leads to the character's death. This will be one of the users previous choices.
 
-**Link Destination:**
+**Link Destination:** Unavailable as we work on this step. This page will link to allow the user to start the game again if they want to play a second round. 
