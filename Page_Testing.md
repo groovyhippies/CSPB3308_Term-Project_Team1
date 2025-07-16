@@ -6,7 +6,7 @@ This Markdown will include a description for the pages we plan to implement for 
 ## Home Page
 **Page Title:** Home | Space Adventurers Prime game
 
-**Page Description:** This page will be the main front page that will explain what the game is, some slight background, how to play the game, and the link to start the game (Game Page)
+**Page Description:** This page will be the main front page that will explain what the game is, some slight background and the link to start the game (Game Page)
 
 **Parameters Needed:** homePageTitle, gameTitle, homePageBackgroundText, gamePageTitle, AboutPageTitle, 
 
