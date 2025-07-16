@@ -4,15 +4,15 @@
 This Markdown will include a description for the pages we plan to implement for our project. 
 
 ## Home Page
-**Page Title:**
+**Page Title:** Home | Space Adventurers Prime game
 
-**Page Description:**
+**Page Description:** This page will be the main front page that will explain what the game is, some slight background, how to play the game, and the link to start the game (Game Page)
 
-**Parameters Needed:**
+**Parameters Needed:** homePageTitle, gameTitle, homePageBackgroundText, gamePageTitle, AboutPageTitle, 
 
-**Data Needed for Render:**
+**Data Needed for Render:** The home page is the very first thing you see when attempting to play Space Adventurers Prime, there is no information needed to render this page, like there would be for example for each choice iteration.
 
-**Link Destination:**
+**Link Destination:** Link to Game Page, Link to About page
 
 ## About Page
 **Page Title:** About
