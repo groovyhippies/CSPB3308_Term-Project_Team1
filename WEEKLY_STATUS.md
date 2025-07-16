@@ -24,9 +24,24 @@ We all finished our JSON story nodes, however, we ran into an issue with merging
 
 ## WEEK_4
 **Trello Screenshot:**
+![Trello Screenshot_4](images/Weekly_Status_4.png)
 
 **Additional Comments:**
+To complete milestone #4, our team discussed the structure of the project and split up the responsibilities for the five main web pages:
 
+- Home Page (Zach)
+
+- About Page (Harumi)
+
+- Game Win Page (Ash)
+
+- Game End Page (Ash)
+
+- Game Page (Scott)
+
+Each one of us was assigned one (or two) pages. We worked individually to write detailed descriptions for our assigned pages, including the title, mockup, required parameters, data, link destinations, and tests for verifying the rendering. These descriptions have been collected in the Page_Testing.md file in the repo.
+
+In addition, we fixed some syntax errors in story.json, such as missing quotation marks around strings and inconsistent casing in node IDs.
 ## WEEK_5
 **Trello Screenshot:**
 
