@@ -35,14 +35,7 @@ This Markdown will include a description for the pages we plan to implement for 
 This is the main interactive page for players to play the game.
 It displays the current story node text and the choices the player can make.
 
-+--------------------------------------------------+
-|                [Adventure Game]                  |
-|                                                  |
-|  Story text: "You walk into a dark forest..."    |
-|                                                  |
-|  [Choice A: Enter the cave]                      |
-|  [Choice B: Climb the tree]                      |
-+--------------------------------------------------+
+![GAME_PAGE](images/Game_Page.png)
 
 **Parameters Needed:**
 - `node_id` (passed as a URL parameter):  
