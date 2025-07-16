@@ -10,6 +10,8 @@ This Markdown will include a description for the pages we plan to implement for 
 
 **Parameters Needed:** homePageTitle, gameTitle, homePageBackgroundText, gamePageTitle, AboutPageTitle, 
 
+<img width="755" height="1213" alt="Screenshot 2025-07-15 192746" src="https://github.com/user-attachments/assets/1f705604-a4db-411d-a1f4-491658321fa6" />
+
 **Data Needed for Render:** The home page is the very first thing you see when attempting to play Space Adventurers Prime, there is no information needed to render this page, like there would be for example for each choice iteration.
 
 **Link Destination:** Link to Game Page, Link to About page
