@@ -12,8 +12,10 @@ After analyzing and discussing our Miro Board story, we approved of our checkpoi
 
 ## WEEK_2
 **Trello Screenshot:**
+![Trello Screenshot_2](images/WEEKLY_UPDATE_IMG2.png)
 
 **Additional Comments:**
+We all finished our JSON story nodes, however, we ran into an issue with merging our branches. The merge conflict resulted in an accidental override of our previous commits, which made parts of our story nodes disappear. To resolve this, we met together as a team and agreed to revert the repository to before the problem merge. We then collaborated closely to walk through the merge process which helped us understand the root of the issue. By working as a team, we were able to restore lost content and plan for how to proceed in the future. 
 
 ## WEEK_3
 **Trello Screenshot:**

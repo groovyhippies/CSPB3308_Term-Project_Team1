@@ -1,0 +1,95 @@
+# CSPB3308_Term-Project_Team1
+
+# Page_Testing
+This Markdown will include a description for the pages we plan to implement for our project. 
+
+## Home Page
+**Page Title:**
+
+**Page Description:**
+
+**Parameters Needed:**
+
+**Data Needed for Render:**
+
+**Link Destination:**
+
+## About Page
+**Page Title:** About
+
+**Page Description:** This page will include a brief description of what our game is about and why we decided to make this game. In addition, we will include each member of our team in the "Meet the Team" section
+![Figma_Screenshot_About](images/figma_about.png)
+
+**Parameters Needed:** Needs title, headline, subHeadline, aboutBodyText, teamHeadline, teamMembers, startButton, aboutButton, homeButton, backgroundImage, fontSetting
+
+**Data Needed for Render:** I will need to include a header section that includes a button that takes us to the "about" and "home" page, as well as a button that "Start Game". 
+
+**Link Destination:** unsure of the link yet, but about should include /about
+
+## Game Page
+**Page Title:** Game Page
+
+**Page Description:**
+This is the main interactive page for players to play the game.
+It displays the current story node text and the choices the player can make.
+
++--------------------------------------------------+
+|                [Adventure Game]                  |
+|                                                  |
+|  Story text: "You walk into a dark forest..."    |
+|                                                  |
+|  [Choice A: Enter the cave]                      |
+|  [Choice B: Climb the tree]                      |
++--------------------------------------------------+
+
+**Parameters Needed:**
+- `node_id` (passed as a URL parameter):  
+  This is the current story node to render, e.g.  
+  `/node/checkpoint1`
+
+---
+**Data Needed for Render:**
+From the story JSON file:
+- The current node's `text`
+- The list of `choices`
+- Each choice's `target` node ID
+
+**Link Destination:**
+Each choice links to another game page (another story node) using the format:  
+`/node/<target_node_id>`
+
+**Examples:**
+- `/node/checkpoint11`
+- `/node/checkpoint12`
+
+If the user wins or loses, it should redirect the user to the game win/lose page.
+
+**Tests:**
+
+- The page loads correctly when a valid `node_id` is given  
+- The correct story text shows up
+- All choices appear as links  
+- Clicking a choice navigates to the correct next node  
+- An error message or redirect pops up if a bad `node_id` is provided  
+
+## Game_Win Page
+**Page Title:**
+
+**Page Description:**
+
+**Parameters Needed:**
+
+**Data Needed for Render:**
+
+**Link Destination:**
+
+## Game_Lose Page
+**Page Title:**
+
+**Page Description:**
+
+**Parameters Needed:**
+
+**Data Needed for Render:**
+
+**Link Destination:**

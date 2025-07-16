@@ -8,7 +8,7 @@ def load_story(path="story.json"):
 def build_node_map(nodes):
     return {n["id"]: n for n in nodes}
 
-def play(node_map, start_id="start"):
+def play(node_map, start_id="checkpoint_0"):
     current = node_map[start_id]
     history = []
 

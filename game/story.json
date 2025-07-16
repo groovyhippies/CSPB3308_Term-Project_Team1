@@ -102,7 +102,7 @@
       "id": "checkpoint_112",
       "text": "[You cripple its flight but are badly hurt. Believing you dead, the creature leaves. You black out. When you wake, you’re in a bed in a small town, saved by someone unknown. Ending: Reach town]",
       "choices": [
-        { "text": "Press 1 to continue", "target": "Checkpoint_2" }
+        { "text": "Press 1 to continue", "target": "checkpoint_2" }
       ]
     },
     {
@@ -130,7 +130,7 @@
       "id": "checkpoint_1221",
       "text": "[You emerge from the cave and stumble upon a mysterious alien town. Strange eyes watch you from the shadows. Ending: Reached Town]",
       "choices": [
-        { "text": "Press 1 to continue", "target": "Checkpoint_2" }
+        { "text": "Press 1 to continue", "target": "checkpoint_2" }
       ]
     },
     {
@@ -144,7 +144,7 @@
 
     
      {
-      "id": "Checkpoint_2", 
+      "id": "checkpoint_2", 
       "text": "MC enters town. What does the MC choose to do?",
       "choices": [
         { "text": "Visit the market. Perhaps find missing gear or clues.", "target": "checkpoint_20" },
@@ -171,27 +171,27 @@
       "id": "checkpoint_20110",
       "text": "Speak to Clara. The dueling champion of the town currently teaching villages how to fight.",
       "choices": [
-        { "text": "Hello new friend, I'm providing weapons and teaching fighting techniques to those who might of encountered the beast. Come join me and I'll show you the proper way to fight", "target": "Checkpoint_2_end" }
+        { "text": "Hello new friend, I'm providing weapons and teaching fighting techniques to those who might of encountered the beast. Come join me and I'll show you the proper way to fight", "target": "checkpoint_2_end" }
       ]
     },
     {
       "id": "checkpoint_20120",
       "text": "Speak to Luke. The owner of Luke's Blue Farm. Currently offering free samples of his local bread.",
       "choices": [
-        { "text": "You're not from around here are you? Wait a minute, do you own that ship that crashed nearby? That was dangerously close to my farm, friend. Here take some supplies and make your way over. Stay safe", "target": "Checkpoint_2_end" }
+        { "text": "You're not from around here are you? Wait a minute, do you own that ship that crashed nearby? That was dangerously close to my farm, friend. Here take some supplies and make your way over. Stay safe", "target": "checkpoint_2_end" }
       ]
     },
     {
       "id": "checkpoint_2020",
       "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "You get caught!", "target": "Checkpoint_2_end" }
+        { "text": "You get caught!", "target": "checkpoint_2_end" }
       ]
     },{
       "id": "checkpoint_2021",
       "text": "Steal supplies from a vendor. Risk: Get caught. Reward: Get supplies",
       "choices": [
-        { "text": "You get succeed!", "target": "Checkpoint_2_end" }
+        { "text": "You get succeed!", "target": "checkpoint_2_end" }
       ]
     },{
       "id": "checkpoint_21",
@@ -213,15 +213,15 @@
       "id": "checkpoint_21000",
       "text": "Sneakily grab a glass bottle from the bar and throw it across the room.",
       "choices": [
-        { "text": "The bartender Frank catches you and kicks you out!", "target": "Checkpoint_2_end" },
-        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "Checkpoint_2_end" }
+        { "text": "The bartender Frank catches you and kicks you out!", "target": "checkpoint_2_end" },
+        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "checkpoint_2_end"}
       ]
     },
     {
       "id": "checkpoint_21001",
       "text": "Shove the man next to you. Then point to the man to the other side of you.",
       "choices": [
-        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "Checkpoint_2_end"}
+        { "text": "A bar fight begins. While everyone is distracted you find the following: Your satchel near a strange mysterious person, but it only contains one small carving knife, and a letter in the backroom discussing a strange encounter the other day when something fell from the sky nearby.", "target": "checkpoint_2_end" }
       ]
     },
     {
@@ -236,21 +236,21 @@
       "id": "checkpoint_2110",
       "text": "Distract her with a drink: Luna starts fumbling her words, dropping the satchel to the ground. You quickly reach for it hiding it next to you. Points +2",
       "choices": [
-        { "text": "You steal back your satchel and slip out of the tavern quietly", "target": "Checkpoint_2_end" }
+        { "text": "You steal back your satchel and slip out of the tavern quietly", "target": "checkpoint_2_end" }
       ]
     },
     {
       "id": "checkpoint_2111",
       "text": "You attempt to distract her with more questions, but Luna sees beneath your deception. 'That's all the information I have.' Luna gets up quickly, satchel in hand, and leaves.",
       "choices": [
-        { "text": "You let her go. At least you got some information.", "target": "Checkpoint_2_end"}
+        { "text": "You let her go. At least you got some information.", "target": "checkpoint_2_end"}
       ]
     },
     {
-      "id": "Checkpoint_2_end",
+      "id": "checkpoint_2_end",
       "text": "You leave the town.",
       "choices": [
-        { "text": "You leave the town.", "target": "Checkpoint_3_root" }
+        { "text": "You leave the town.", "target": "checkpoint_3_root" }
       ]
     },
 
@@ -259,7 +259,7 @@
 
     
     {
-      "id": "Checkpoint_3_root",
+      "id": "checkpoint_3_root",
       "text": "As you head out toward the ravine in search of the legendary armorer, a grizzled hunter calls out to you. 'You don’t want to face the Beast alone. I’m Brant. Been chasing her for years. I saw you in the tavern — you’ve got guts. What do you say? Team up?'",
       "choices": [
         { "text": "Stick to the original plan — go find the armorer and the silent boots.", "target": "checkpoint_31" },
