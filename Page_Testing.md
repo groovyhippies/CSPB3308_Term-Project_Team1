@@ -82,11 +82,13 @@ If the user wins or loses, it should redirect the user to the game win/lose page
 **Data Needed for Render:**  Each individual user choices which will lead to this final page.
 
 **Link Destination:** Unavailable as we work on this step. This page will link to allow the user to start the game again if they want to play a second round. 
+![Win Page](images/win_page.png)
 
 ## Game_Lose Page
 **Page Title:** You Died. or You Lost.
 
 **Page Description:** This page will be the final page a user sees when they select an incorrect choice and die in the game. 
+![Win Page](images/lose_page.png)
 
 **Parameters Needed:**  /lose
 
