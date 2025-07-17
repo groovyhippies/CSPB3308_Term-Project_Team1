@@ -4,15 +4,17 @@
 This Markdown will include a description for the pages we plan to implement for our project. 
 
 ## Home Page
-**Page Title:**
+**Page Title:** Home | Space Adventurers Prime game
 
-**Page Description:**
+**Page Description:** This page will be the main front page that will explain what the game is, some slight background and the link to start the game (Game Page)
 
-**Parameters Needed:**
+**Parameters Needed:** homePageTitle, gameTitle, homePageBackgroundText, gamePageTitle, AboutPageTitle, 
 
-**Data Needed for Render:**
+<img width="755" height="1213" alt="Screenshot 2025-07-15 192746" src="https://github.com/user-attachments/assets/1f705604-a4db-411d-a1f4-491658321fa6" />
 
-**Link Destination:**
+**Data Needed for Render:** The home page is the very first thing you see when attempting to play Space Adventurers Prime, there is no information needed to render this page, like there would be for example for each choice iteration.
+
+**Link Destination:** Link to Game Page, Link to About page
 
 ## About Page
 **Page Title:** About
@@ -33,14 +35,7 @@ This Markdown will include a description for the pages we plan to implement for 
 This is the main interactive page for players to play the game.
 It displays the current story node text and the choices the player can make.
 
-+--------------------------------------------------+
-|                [Adventure Game]                  |
-|                                                  |
-|  Story text: "You walk into a dark forest..."    |
-|                                                  |
-|  [Choice A: Enter the cave]                      |
-|  [Choice B: Climb the tree]                      |
-+--------------------------------------------------+
+![GAME_PAGE](images/Game_Page.png)
 
 **Parameters Needed:**
 - `node_id` (passed as a URL parameter):  
