@@ -284,15 +284,15 @@
       "id": "checkpoint_321",
       "text": "'as you both creep closer, you both make your best attempts at silence while you get closer to set up the trap, you hear a branch snap and look down in horror to see it came from just beneath your foot.",
       "choices": [
-        { "text": "IT HEARD YOU! [PANIC NOISES]", "target": "checkpoint_3_end" }
+        { "text": "IT HEARD YOU! [PANIC NOISES]", "target": "checkpoint_4_2" }
         
       ]
     },{
       "id": "checkpoint_322",
       "text": "'You ready?' Brant asks you with a smug look on his face. This must be fun for him",
       "choices": [
-        { "text": "OH YEAH!", "target": "checkpoint_3_end" },
-        { "text": "are you kidding?", "target": "checkpoint_3_end"}
+        { "text": "OH YEAH!", "target": "checkpoint_4_2" },
+        { "text": "are you kidding?", "target": "checkpoint_4_2"}
         
       ]
     },
@@ -336,7 +336,7 @@
       "id": "checkpoint_311111p",
       "text": "You emerge, boots snug and soundless. You're ready to face the Beast — quietly.",
       "choices": [
-        { "text": "Approach the Beast with stealth.", "target": "checkpoint_326" }
+        { "text": "Approach the Beast with stealth.", "target": "checkpoint_4_3" }
       ]
     },
     {
@@ -354,15 +354,89 @@
         { "text": "Sprint faster!", "target": "checkpoint_3_end" }
       ]
     },{
-    "id":"checkpoint_3_end",
-    "text": "encounter Boss",
-    "choices": [] 
+        "id":"checkpoint_3_end",
+        "text": "encounter Boss",
+        "choices": [
+            { "text": "Encounter Boss", "target": "checkpoint_4_1" }
+        ] 
     },
     
+      
+      
     {
-      "id": "end",
-      "text": "[Ending text here]",
-      "choices": []
+      "id": "checkpoint_4_1",
+      "text": "You came unprepared. You have nothing to sneak past the boss and you have no companions.",
+      "choices": [
+          {"text": "You Died", "target": "checkpoint_0"}
+      ]
+    },
+    {
+      "id": "checkpoint_4_2",
+      "text": "You've arrived at the boss with your buddy, Brant. You have two choices.",
+      "choices": [
+          { "text": "You get Brant to directly shoot the beast, you have faith he will take him down in one shot.", "target": "checkpoint_4_21" },
+          { "text": "Brant shoots an arrow near the beast to distract it while you run up to it to attack it", "target": "checkpoint_4_22" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_3",
+      "text": "You came prepared. You have your silent boots on, ready to sneak past the giant insect.",
+      "choices": [
+          { "text": "You don't want to risk the darkness, you decide to trek quietly straight to your ship, hopefully the creature won't be able to hear you.", "target": "checkpoint_4_31" },
+          { "text": "You have your silent boots, sneak passed, keeping a far distance, it might be dark by the time you reach your ship", "target": "checkpoint_4_32" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_21",
+      "text": "You get Brant to directly shoot the beast, you have faith he will take him down in one shot.",
+      "choices": [
+          { "text": "'Okay, let's try it' - Brant", "target": "checkpoint_4_23" },
+          { "text": "'Hell no. Are you crazy?' - Brant", "target": "checkpoint_4_22" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_22",
+      "text": "Brant shoots an arrow near the beast to distract it while you run up to it to attack it.",
+      "choices": [
+          { "text": "Brant shoots an arrow a few yards away and the beast is too focused on the sound (due to its poor eyesight) it doesn't notice you until you are within a few feet.", "target": "checkpoint_4_24" },
+          { "text": "You realize that this beast is a lot stronger than you thought. Brant is distracting the beast and you may have a chance to reach the ship. You abandon Brant and run towards the ship.", "target": "checkpoint_4_25" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_24",
+      "text": "Brant shoots an arrow a few yards away and the beast is too focused on the sound (due to its poor eyesight) it doesn't notice you until you are within a few feet.",
+      "choices": [
+          { "text": "'Shoot it Brant', you shout.", "target": "checkpoint_4_26" },
+          { "text": "'Thanks for your help Brant, but  I got it from here.' You volunteer yourself. ", "target": "checkpoint_4_27" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_25",
+      "text": "Creature gets you (How could you just leave Brant?)",
+      "choices": [
+          { "text": "You traitor. You died.", "target": "checkpoint_0" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_27",
+      "text": "You couldn't fight the creature alone.",
+      "choices": [
+          { "text": "You died.", "target": "checkpoint_0" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_26",
+      "text": "Brant shoots the beast into its [hearing limb], you take this opportunity to run up and stab it in its defenseless heart, the beast goes down with a resounding THUMP. Together you and Brant have defeated the beast, leaving you both satisfied as can be.",
+      "choices": [
+          { "text": "You did it! You can now leave in your ship.", "target": "checkpoint_win" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_23",
+      "text": "Brant shoots the insect beast with one arrow, however, the beast only seems slightly injured. Now it is angry and charging at you. It mauls the both of you.",
+      "choices": [
+          { "text": "You died.", "target": "checkpoint_0" }
+      ]
     }
   ]
 }
