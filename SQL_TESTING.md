@@ -224,7 +224,7 @@ At least one user has completed and won a game.
 
 The GlobalStatistics table contains up-to-date stats.
 
-Test steps:
+Test steps: 
 
 Complete a game run and achieve a win.
 
