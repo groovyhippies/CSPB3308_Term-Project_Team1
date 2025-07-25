@@ -230,7 +230,7 @@ Complete a game run and achieve a win.
 
 Observe the post-game screen after the win.
 
-Verify that the global statistics section is present and visible.
+Verify that the global statistics section is present and visible. 
 
 Compare the displayed global stats (win count, loss count, win/lose ratio, steps taken, etc.) with the values in the database.
 
