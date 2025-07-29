@@ -1,7 +1,8 @@
 from flask import Flask, render_template, abort
 import json
+import psycopg
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Load story.json once at startup
 with open('story.json') as f:
@@ -22,6 +23,10 @@ def show_node(node_id):
     if not node:
         return abort(404)
     return render_template('game.html', node=node)
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
