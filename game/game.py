@@ -1,6 +1,7 @@
 from flask import Flask, render_template, abort
 import json
 import psycopg
+import os
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
