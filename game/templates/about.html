@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <!-- Link to CSS file inside static/css/ -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>Space Adventure Prime</h1>
+    <div class="nav-buttons">
+      <a href="/home" class="nav-btn">Home</a>
+      <a href="/about" class="nav-btn">About</a>
+      <a href="/" class="nav-btn">Start Game</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="center-content">
+      <!-- Replace with your image filenames -->
+      <img src="{{ url_for('static', filename='images/btn-about.png') }}" alt="About" class="section-img" />
+      <img src="{{ url_for('static', filename='images/description-box.png') }}" alt="Game Description" class="section-img" />
+      <img src="{{ url_for('static', filename='images/btn-meet-team.png') }}" alt="Meet the Team" class="section-img" />
+
+      <div class="team-grid">
+        <img src="{{ url_for('static', filename='images/btn-harumi.png') }}" alt="Harumi Booth" />
+        <img src="{{ url_for('static', filename='images/btn-scott.png') }}" alt="Scott Yu" />
+        <img src="{{ url_for('static', filename='images/btn-ash.png') }}" alt="Ash Dannullo" />
+        <img src="{{ url_for('static', filename='images/btn-zach.png') }}" alt="Zach Majeski" />
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
