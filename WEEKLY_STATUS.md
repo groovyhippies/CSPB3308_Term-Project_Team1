@@ -48,5 +48,6 @@ For milestone 5, we came together and designed what we would like our SQL databa
 
 ## WEEK_5
 **Trello Screenshot:**
-
+![Trello Screenshot_5](images/wk_5.png)
 **Additional Comments:**
+We completed milestone 5 and are now working to finish up our pages. We have deployed our repo to Render. We are getting prepared to present for the next week. 
