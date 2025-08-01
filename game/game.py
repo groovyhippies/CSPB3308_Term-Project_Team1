@@ -17,9 +17,19 @@ def get_node_by_id(node_id):
 
 @app.route('/')
 def home():
-    start_node=next((node for node in STORY if node['id'] == 'checkpoint_0'), None)
-    return render_template('game.html', node=start_node)
-   # return '<h1>Welcome to the Adventure Game</h1><a href="/node/checkpoint_0">Start Game</a>'
+    # TODO: Zach, please build your actual home.html template later
+    return """
+    <html>
+        <head><title>Adventure Game - Home</title></head>
+        <body>
+            <h1>Welcome to the Adventure Game</h1>
+            <ul>
+                <li><a href="/node/checkpoint_0">Start Game</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </body>
+    </html>
+    """
 
 @app.route('/node/<node_id>')
 def show_node(node_id):
