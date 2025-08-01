@@ -20,9 +20,9 @@ def home():
     # TODO: Zach, please build your actual home.html template later
     return """
     <html>
-        <head><title>Adventure Game - Home</title></head>
+        <head><title> Worldwide Adventurers- Home</title></head>
         <body>
-            <h1>Welcome to the Adventure Game</h1>
+            <h1>Welcome to Worldwide Adventurers</h1>
             <ul>
                 <li><a href="/node/checkpoint_0">Start Game</a></li>
                 <li><a href="/about">About</a></li>
