@@ -20,7 +20,7 @@ def home():
     # TODO: Zach, please build your actual home.html template later
     return """
     <html>
-        <head><title> Worldwide Adventurers- Home</title></head>
+        <head><title> Space Adventurer- Home</title></head>
         <body>
             <h1>Welcome to Worldwide Adventurers</h1>
             <ul>

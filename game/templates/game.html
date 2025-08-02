@@ -2,20 +2,34 @@
 <html>
 <head>
     <title>Adventure Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
 </head>
-<body>
-    <h2>Adventure Game</h2>
-    <p>{{ node.text }}</p>
+<body class="game-page">
+    <!-- Header with nav -->
+    <header>
+        <h1>Space Adventurer</h1>
+        <div class="nav-buttons">
+            <a href="/" class="nav-btn">Home</a>
+            <a href="/about" class="nav-btn">About</a>
+        </div>
+    </header>
 
-    {% if node.choices %}
-        <ul>
-            {% for choice in node.choices %}
-                <li><a href="{{ url_for('show_node', node_id=choice.target) }}">{{ choice.text }}</a></li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        <p><strong>The End.</strong></p>
-        <a href="{{ url_for('show_node', node_id='checkpoint_0') }}">Restart</a>
-    {% endif %}
+    <!-- Main game content -->
+    <main>
+        <p>{{ node.text }}</p>
+
+        {% if node.choices %}
+<ul>
+    {% for choice in node.choices %}
+        <li><a class="nav-btn" href="{{ url_for('show_node', node_id=choice.target) }}">✦ {{ choice.text }}</a></li>
+    {% endfor %}
+</ul>
+
+        {% else %}
+            <p><strong>The End.</strong></p>
+        {% endif %}
+
+<a href="{{ url_for('show_node', node_id='checkpoint_0') }}" class="nav-btn">Restart Game</a>
+    </main>
 </body>
 </html>
