@@ -19,16 +19,17 @@
         <p>{{ node.text }}</p>
 
         {% if node.choices %}
-            <ul>
-                {% for choice in node.choices %}
-                    <li><a href="{{ url_for('show_node', node_id=choice.target) }}">✦ {{ choice.text }}</a></li>
-                {% endfor %}
-            </ul>
+<ul>
+    {% for choice in node.choices %}
+        <li><a class="nav-btn" href="{{ url_for('show_node', node_id=choice.target) }}">✦ {{ choice.text }}</a></li>
+    {% endfor %}
+</ul>
+
         {% else %}
             <p><strong>The End.</strong></p>
         {% endif %}
 
-        <a href="{{ url_for('show_node', node_id='checkpoint_0') }}" class="nav-btn">Restart Game</a>
+<a href="{{ url_for('show_node', node_id='checkpoint_0') }}" class="nav-btn">Restart Game</a>
     </main>
 </body>
 </html>

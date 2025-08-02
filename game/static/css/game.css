@@ -7,3 +7,23 @@ body {
   background-attachment: fixed;
   color: white;
 }
+.nav-btn {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.nav-btn:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.nav-buttons .nav-btn,
+.nav-btn {
+  margin: 0.5rem;
+}
