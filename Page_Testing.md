@@ -72,7 +72,7 @@ If the user wins or loses, it should redirect the user to the game win/lose page
 
 **Page Description:** This page will be the final page a player sees when they select all the correct choices and win the game. See win_page.png in images folder.
 
-**Parameters Needed:**  /win
+**Parameters Needed:**  /won
 
 **Data Needed for Render:**  Each individual user choices which will lead to this final page.
 
@@ -85,7 +85,7 @@ If the user wins or loses, it should redirect the user to the game win/lose page
 **Page Description:** This page will be the final page a user sees when they select an incorrect choice and die in the game. 
 ![Win Page](images/lose_page.png)
 
-**Parameters Needed:**  /lose
+**Parameters Needed:**  /lost
 
 **Data Needed for Render:** The specific choice that leads to the character's death. This will be one of the users previous choices.
 
