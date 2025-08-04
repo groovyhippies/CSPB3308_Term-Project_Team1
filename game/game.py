@@ -46,5 +46,9 @@ def about():
 def won():
     return render_template('won.html')
 
+@app.route('/lost')
+def lost():
+    return render_template('lost.html')
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
