@@ -269,7 +269,7 @@
       "text": "You thank Brant but decide to press on toward the ravine. It's getting dark — if you don’t hurry, the Beast might take your ship for good.",
       "choices": [
         { "text": "You always were a bit of a lone wolf, as you make your way to the armorer, if they even exist, you come across a wide ravine", "target": "checkpoint_311" },
-        { "text": "Brant tries to urge you to reconsider, he's seen this beast many times, he rolls back his sleeve to show a large scar that has long since healed, remnants of a terrifying encounter 'You'll need me, trust me' ", "target": "checkpoint_312" }
+        { "text": "Brant tries to urge you to reconsider, he's seen this beast many times, he rolls back his sleeve to show a large scar that has long since healed, remnants of a terrifying encounter 'You'll need me, trust me' ", "target": "checkpoint_32" }
       ]
     },
     {
@@ -383,7 +383,13 @@
       "text": "You came prepared. You have your silent boots on, ready to sneak past the giant insect.",
       "choices": [
           { "text": "You don't want to risk the darkness, you decide to trek quietly straight to your ship, hopefully the creature won't be able to hear you.", "target": "checkpoint_4_31" },
-          { "text": "You have your silent boots, sneak passed, keeping a far distance, it might be dark by the time you reach your ship", "target": "checkpoint_4_32" }
+          { "text": "You have your silent boots, sneak passed, keeping a far distance, it might be dark by the time you reach your ship", "target": "checkpoint_win" }
+      ]
+    },{
+      "id": "checkpoint_4_31",
+      "text": "The Beast heard you! you were too loud and too close      :(  .",
+      "choices": [
+          {"text": "You Died", "target": "checkpoint_0"}
       ]
     },
     {
@@ -400,6 +406,13 @@
       "choices": [
           { "text": "Brant shoots an arrow a few yards away and the beast is too focused on the sound (due to its poor eyesight) it doesn't notice you until you are within a few feet.", "target": "checkpoint_4_24" },
           { "text": "You realize that this beast is a lot stronger than you thought. Brant is distracting the beast and you may have a chance to reach the ship. You abandon Brant and run towards the ship.", "target": "checkpoint_4_25" }
+      ]
+    },
+    {
+      "id": "checkpoint_4_23",
+      "text": "Brant shoots the insect beast with one arrow, however, the beast only seems slightly injured. Now it is angry and charging at you. It mauls the both of you."
+      "choices": [
+           { "text": "You both died.", "target": "checkpoint_0" }
       ]
     },
     {
