@@ -410,7 +410,7 @@
     },
     {
       "id": "checkpoint_4_23",
-      "text": "Brant shoots the insect beast with one arrow, however, the beast only seems slightly injured. Now it is angry and charging at you. It mauls the both of you."
+      "text": "Brant shoots the insect beast with one arrow, however, the beast only seems slightly injured. Now it is angry and charging at you. It mauls the both of you.",
       "choices": [
            { "text": "You both died.", "target": "checkpoint_0" }
       ]
