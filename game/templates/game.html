@@ -20,11 +20,21 @@
 
         {% if node.choices %}
 <ul>
+
     {% for choice in node.choices %}
-        <li><a class="nav-btn" href="{{ url_for('show_node', node_id=choice.target) }}">✦ {{ choice.text }}</a></li>
+        {% if choice.target == "checkpoint_win" %}
+            <li><a class="nav-btn" href="{{ url_for('won') }}">✦ {{ choice.text }}</a></li>
+        {% else %}
+            <li><a class="nav-btn" href="{{ url_for('show_node', node_id=choice.target) }}">✦ {{ choice.text }}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>
 
+    {% else %}
+        {% if node.type == "win" %}
+            <a href="{{ url_for('won') }}" class="nav-btn">Continue to Win Page</a>
+        {% elif node.type == "lose" %}
+            <a href="{{ url_for('lost') }}" class="nav-btn">Continue to Lost Page</a>
         {% else %}
             <p><strong>The End.</strong></p>
         {% endif %}
