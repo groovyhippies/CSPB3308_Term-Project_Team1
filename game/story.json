@@ -95,6 +95,7 @@
     },
     {
       "id": "checkpoint_111",
+      "type": "lose",
       "text": "[You shatter a leg—but the creature impales you instantly. Ending: DEAD]",
       "choices": []
     },
@@ -115,6 +116,7 @@
     },
     {
       "id": "checkpoint_121",
+      "type": "lose",
       "text": "[A cloud of shimmering spores bursts around you. You stumble and collapse, overcome by vivid hallucinations of your home planet… forever. DEAD]",
       "choices": []
     },
@@ -135,6 +137,7 @@
     },
     {
       "id": "checkpoint_1222",
+      "type": "lose",
       "text": "[The vines wrap tighter around you the deeper you go. Suddenly, the ground gives way—you fall into a pit of writhing roots and vanish into the dark. Ending: DEAD]",
       "choices": []
     },

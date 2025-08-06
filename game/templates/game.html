@@ -18,7 +18,7 @@
     <main>
         <p>{{ node.text }}</p>
 
-        {% if node.choices %}
+    {% if node.choices %}
 <ul>
 
     {% for choice in node.choices %}
@@ -38,7 +38,7 @@
         {% else %}
             <p><strong>The End.</strong></p>
         {% endif %}
-
+    {% endif %}
 <a href="{{ url_for('show_node', node_id='checkpoint_0') }}" class="nav-btn">Restart Game</a>
     </main>
 </body>
