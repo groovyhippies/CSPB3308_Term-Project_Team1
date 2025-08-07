@@ -1,5 +1,4 @@
-
-  body {
+body {
   margin: 0;
   font-family: 'Courier New', monospace;
   background-image: url('../images/background.png');
@@ -9,7 +8,7 @@
   color: white;
 }
 
-    header {
+header {
   background-color: #111;
   color: white;
   padding: 1rem;
@@ -18,12 +17,12 @@
   align-items: center;
 }
 
-    header h1 {
+header h1 {
   margin: 0;
   font-size: 1.8rem;
 }
 
-  .nav-buttons {
+.nav-buttons {
   display: flex;
   gap: 10px;
 }
@@ -38,84 +37,36 @@
   transition: background 0.3s ease;
 }
 
-   .nav-btn:hover {
+.nav-btn:hover {
   background-color: #ccc;
 }
 
-    main {
-      min-height: 80vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .center-content {
-      width: 100%;
-      max-width: 1200px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      padding: 20px;
-    }
+.center-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
 
-    .section-img {
-      max-width: 300px;
-      height: auto;
-      transition: transform 0.3s ease;
-    }
+.section-img {
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
 
-    .section-img:hover {
-      transform: scale(1.05);
-    }
-
-    .game-scene {
-      position: relative;
-      width: 600px;
-      height: 500px;
-      margin-top: 50px;
-    }
-
-    .astronaut {
-      position: absolute;
-      width: 700px;
-      height: auto;
-      bottom: 20 px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1;
-    }
-
-    .planet {
-      position: absolute;
-      width: 750px;
-      height: auto;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 2;
-    }
-
-    .space-textbox {
-      position: absolute;
-      width: 550px;
-      height: auto;
-      bottom: 40px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 3;
-    }
-
-    .game-title {
-      position: absolute;
-      width: 250px;
-      height: auto;
-      bottom: 125px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 4;
-    }
-
+.section-img:hover {
+  transform: scale(1.05);
+}
 
 .game-scene {
   position: relative;
@@ -129,7 +80,7 @@
   position: absolute;
   width: 500px;
   height: auto;
-  bottom: 20px;
+  bottom: 20px; /* Fixed: removed space in "20 px" */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -167,4 +118,23 @@
   transform: translateX(-50%);
   z-index: 4;
   max-width: 30%;
+}
+
+.play-game-link {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  transition: transform 0.3s ease;
+}
+
+.play-game-link:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+.play-game-btn {
+  width: 200px;
+  height: auto;
+  max-width: 90%;
 }
