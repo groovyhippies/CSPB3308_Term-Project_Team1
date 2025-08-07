@@ -84,7 +84,7 @@ main {
   position: absolute;
   width: 700px;
   height: auto;
-  bottom: -140px; 
+  bottom: -40px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -94,8 +94,8 @@ main {
 .planet {
   position: absolute;
   width: 850px;
-  height: 400px;
-  bottom: -250px;
+  height: 600px;
+  bottom: -150px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
