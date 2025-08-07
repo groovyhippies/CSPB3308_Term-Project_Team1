@@ -1,0 +1,171 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      background-image: url('{{ url_for('static', filename='images/space_background.jpg') }}');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      margin: 0 0 20px 0;
+      color: #ffd700;
+      font-size: 2.5rem;
+    }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .nav-btn {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 2px solid #ffd700;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .nav-btn:hover {
+      background: #ffd700;
+      color: black;
+    }
+
+    main {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .center-content {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .section-img {
+      max-width: 300px;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .section-img:hover {
+      transform: scale(1.05);
+    }
+
+    .game-scene {
+      position: relative;
+      width: 600px;
+      height: 500px;
+      margin-top: 50px;
+    }
+
+    .astronaut {
+      position: absolute;
+      width: 400px;
+      height: auto;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+
+    .planet {
+      position: absolute;
+      width: 350px;
+      height: auto;
+      bottom: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+
+    .space-textbox {
+      position: absolute;
+      width: 250px;
+      height: auto;
+      bottom: 130px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+    }
+
+    .game-title {
+      position: absolute;
+      width: 150px;
+      height: auto;
+      bottom: 160px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 4;
+    }
+
+
+.game-scene {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin-top: 50px;
+  max-width: 90%;
+}
+
+.astronaut {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  max-width: 70%;
+}
+
+.planet {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  max-width: 60%;
+}
+
+.space-textbox {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  bottom: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  max-width: 45%;
+}
+
+.game-title {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  bottom: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  max-width: 30%;
+}

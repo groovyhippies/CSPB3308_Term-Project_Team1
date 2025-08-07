@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <!-- Link to CSS file inside static/css/ -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>Space Adventure Prime</h1>
+    <div class="nav-buttons">
+      <a href="/" class="nav-btn">Home</a>
+      <a href="/about" class="nav-btn">About</a>
+      <a href="/node/checkpoint_0" class="nav-btn">Start Game</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="center-content">
+      
+      <!-- Navigation buttons at top -->
+      <img src="{{ url_for('static', filename='images/mw-Home.png') }}" alt="Home" class="section-img" />
+      <img src="{{ url_for('static', filename='images/mw-PLAY THE GAME .png') }}" alt="Play the Game" class="section-img" />
+      
+      
+      <div class="game-scene">
+        
+       
+        <img src="{{ url_for('static', filename='images/png-astronaut-outline-sketch-drawing-adult-illustrated_53876-910310.webp') }}" 
+             alt="Space Astronaut" 
+             class="astronaut" />
+        
+        
+        <img src="{{ url_for('static', filename='images/brown planet.png') }}" 
+             alt="Planet" 
+             class="planet" />
+        
+       
+        <img src="{{ url_for('static', filename='images/space text box (1).png') }}" 
+             alt="Space Text Box" 
+             class="space-textbox" />
+        
+      
+        <img src="{{ url_for('static', filename='images/mw-Space Adventure Prime_CYOA_taller_thinner_no background.png') }}" 
+             alt="Space Adventure Prime" 
+             class="game-title" />
+             
+      </div>
+      
+    </div>
+  </main>
+
+</body>
+</html>
