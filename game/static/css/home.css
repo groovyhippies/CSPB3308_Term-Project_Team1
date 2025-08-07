@@ -78,9 +78,9 @@ main {
 
 .astronaut {
   position: absolute;
-  width: 500px;
+  width: 1000px;
   height: auto;
-  bottom: 20px; /* Fixed: removed space in "20 px" */
+  bottom: -60px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -89,7 +89,7 @@ main {
 
 .planet {
   position: absolute;
-  width: 350px;
+  width: 850px;
   height: auto;
   bottom: 40px;
   left: 50%;
@@ -100,9 +100,9 @@ main {
 
 .space-textbox {
   position: absolute;
-  width: 250px;
+  width: 650px;
   height: auto;
-  bottom: 60px;
+  bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -134,7 +134,7 @@ main {
 }
 
 .play-game-btn {
-  width: 200px;
+  width: 600px;
   height: auto;
   max-width: 90%;
 }
