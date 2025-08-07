@@ -78,7 +78,7 @@
 
     .astronaut {
       position: absolute;
-      width: 200px;
+      width: 700px;
       height: auto;
       bottom: 20 px;
       left: 50%;
@@ -98,7 +98,7 @@
 
     .space-textbox {
       position: absolute;
-      width: 450px;
+      width: 550px;
       height: auto;
       bottom: 40px;
       left: 50%;
@@ -108,7 +108,7 @@
 
     .game-title {
       position: absolute;
-      width: 350px;
+      width: 250px;
       height: auto;
       bottom: 125px;
       left: 50%;
