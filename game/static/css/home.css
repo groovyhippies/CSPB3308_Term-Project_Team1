@@ -104,8 +104,8 @@ main {
 
 .space-textbox {
   position: absolute;
-  width: 420px;
-  height: 280px;
+  width: 450px;
+  height: 250px;
   bottom: -80px;
   left: 50%;
   transform: translateX(-50%);
