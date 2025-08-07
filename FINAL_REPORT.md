@@ -15,7 +15,7 @@
 
 ---
 ## Link to 5 minute video
-* 
+* https://youtu.be/IbRCP4GZi94?si=nrDdm8yNET-bd24c
 
 ## Version Control Repository
 * https://github.com/groovyhippies/CSPB3308_Term-Project_Team1
