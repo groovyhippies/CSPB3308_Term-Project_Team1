@@ -117,7 +117,7 @@ main {
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .play-game-link {
