@@ -119,9 +119,9 @@ main {
 
 .game-title { 
   position: absolute;
-  width: 400px;
-  height: 200px;
-  bottom: -50px;
+  width: 360px;
+  height: 180px;
+  bottom: -60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
