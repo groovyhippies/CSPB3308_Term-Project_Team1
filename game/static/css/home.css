@@ -59,7 +59,7 @@ main {
 }
 
 .section-img {
-  max-width: 800px;
+  max-width: 500px;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -78,7 +78,7 @@ main {
 
 .astronaut {
   position: absolute;
-  width: 1000px;
+  width: 700px;
   height: auto;
   bottom: -60px; 
   left: 50%;
@@ -89,9 +89,9 @@ main {
 
 .planet {
   position: absolute;
-  width: 850px;
+  width: 650px;
   height: auto;
-  bottom: -740px;
+  bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -111,7 +111,7 @@ main {
 
 .game-title {
   position: absolute;
-  width: 550px;
+  width: 250px;
   height: auto;
   bottom: 160px;
   left: 50%;
