@@ -82,7 +82,7 @@ main {
 
 .astronaut {
   position: absolute;
-  width: 1400px;
+  width: 800px;
   height: auto;
   bottom: -80px; 
   left: 50%;
@@ -93,7 +93,7 @@ main {
 
 .planet {
   position: absolute;
-  width: 1450px;
+  width: 850px;
   height: auto;
   bottom: -120px;
   left: 50%;
@@ -104,9 +104,9 @@ main {
 
 .space-textbox {
   position: absolute;
-  width: 500px;
-  height: 250px;
-  bottom: -40px;
+  width: 600px;
+  height: 350px;
+  bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
