@@ -106,7 +106,7 @@ main {
   position: absolute;
   width: 450px;
   height: 250px;
-  bottom: -80px;
+  bottom: -55px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
