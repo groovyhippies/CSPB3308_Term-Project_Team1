@@ -78,9 +78,9 @@ main {
 
 .astronaut {
   position: absolute;
-  width: 700px;
+  width: 900px;
   height: auto;
-  bottom: -60px; 
+  bottom: -40px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -89,7 +89,7 @@ main {
 
 .planet {
   position: absolute;
-  width: 650px;
+  width: 750px;
   height: auto;
   bottom: -40px;
   left: 50%;
@@ -100,9 +100,9 @@ main {
 
 .space-textbox {
   position: absolute;
-  width: 650px;
+  width: 600px;
   height: auto;
-  bottom: -20px;
+  bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -111,9 +111,9 @@ main {
 
 .game-title {
   position: absolute;
-  width: 250px;
-  height: auto;
-  bottom: 160px;
+  width: 450px;
+  height: 250px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
