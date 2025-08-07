@@ -15,22 +15,6 @@ with open(story_path) as f:
 def get_node_by_id(node_id):
     return next((node for node in STORY if node['id'] == node_id), None)
 
-@app.route('/')
-def home():
-    # TODO: Zach, please build your actual home.html template later
-    return """
-    <html>
-        <head><title> Space Adventurer- Home</title></head>
-        <body>
-            <h1>Welcome to Worldwide Adventurers</h1>
-            <ul>
-                <li><a href="/node/checkpoint_0">Start Game</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-        </body>
-    </html>
-    """
-
 @app.route('/node/<node_id>')
 def show_node(node_id):
     node = get_node_by_id(node_id)
