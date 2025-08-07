@@ -3,7 +3,7 @@
       margin: 0;
       padding: 0;
       background-color: #000;
-      background-image: url('{{ url_for('static', filename='images/space_background.jpg') }}');
+      background-image:url('../images/background.png');
       background-size: cover;
       background-position: center;
       font-family: Arial, sans-serif;
