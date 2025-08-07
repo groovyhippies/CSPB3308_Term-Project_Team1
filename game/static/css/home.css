@@ -80,7 +80,7 @@ main {
   position: absolute;
   width: 1200px;
   height: auto;
-  bottom: -80px; 
+  bottom: -100px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -91,7 +91,7 @@ main {
   position: absolute;
   width: 950px;
   height: auto;
-  bottom: -100px;
+  bottom: -120px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -100,7 +100,7 @@ main {
 
 .space-textbox {
   position: absolute;
-  width: 800px;
+  width: 900px;
   height: auto;
   bottom: -40px;
   left: 50%;
