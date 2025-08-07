@@ -91,7 +91,7 @@ main {
   position: absolute;
   width: 950px;
   height: auto;
-  bottom: -80px;
+  bottom: -100px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -100,7 +100,7 @@ main {
 
 .space-textbox {
   position: absolute;
-  width: 600px;
+  width: 800px;
   height: auto;
   bottom: -40px;
   left: 50%;
@@ -116,12 +116,14 @@ main {
   position: absolute;
   width: 450px;
   height: 100px;
-  bottom: 80px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
   max-width: 50%;
 }
+
+
 
 .play-game-link {
   position: absolute;
