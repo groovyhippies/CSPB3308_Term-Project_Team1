@@ -59,7 +59,7 @@ main {
 }
 
 .section-img {
-  max-width: 300px;
+  max-width: 800px;
   height: auto;
   transition: transform 0.3s ease;
 }
