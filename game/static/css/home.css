@@ -80,11 +80,11 @@ main {
   position: absolute;
   width: 900px;
   height: auto;
-  bottom: -40px; 
+  bottom: -80px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .planet {
@@ -95,7 +95,7 @@ main {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  max-width: 60%;
+  max-width: 110%;
 }
 
 .space-textbox {
@@ -112,7 +112,7 @@ main {
 .game-title {
   position: absolute;
   width: 450px;
-  height: 250px;
+  height: 150px;
   bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
