@@ -38,6 +38,10 @@ def show_node(node_id):
         return abort(404)
     return render_template('game.html', node=node)
 
+@app.route('/')
+def home():
+    return render_template('home.html')
+
 @app.route('/about')
 def about():
     return render_template('about.html')
